@@ -1,7 +1,6 @@
 package Equals;
 public class compare {
         int Code;
-        int result;
         public boolean equals (compare man){
             return this.Code == man.Code;
         }
