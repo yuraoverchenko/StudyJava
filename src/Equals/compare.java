@@ -4,7 +4,9 @@ public class compare {
         public boolean equals (compare man){
             return this.Code == man.Code;
         }
-
+    public int hashCode() {
+        return Code;
+    }
         public static void main (String[]args){
             compare man1 = new compare();
             man1.Code = 1111222233;
