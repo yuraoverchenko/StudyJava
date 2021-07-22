@@ -1,14 +1,14 @@
 public class List {
-        private MyLinked link;
+        private Node link;
 
 
          public void add (int value){
-             MyLinked element = new MyLinked (value);
+             Node element = new Node(value);
              element.next = link;
              link = element;
          }
          public void print(){
-             MyLinked element = link;
+             Node element = link;
 
 
              while (element != null){
