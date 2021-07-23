@@ -7,7 +7,5 @@ public class Main {
         list.add(55);
         list.add(85);
         list.print();
-
-
     }
 }

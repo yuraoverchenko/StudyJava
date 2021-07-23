@@ -1,20 +1,19 @@
 public class List {
-        private Node link;
-
+        Node head = new Node();
 
          public void add (int value){
              Node element = new Node(value);
-             element.next = link;
-             link = element;
+             Node walker = head;
+             while (walker.next != null){
+                 walker = walker.next;
+             }
+             walker.next = element;
          }
          public void print(){
-             Node element = link;
-
-
-             while (element != null){
-                 System.out.println(element.value);
-                 element = element.next;
-
+             Node walker = head;
+             while (walker.next != null){
+                 walker = walker.next;
+                 System.out.println(walker.value);
              }
          }
 }
