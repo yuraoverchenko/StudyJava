@@ -16,11 +16,11 @@ public class test {
 
     public void print()
     {
-        Node x = this.head;
-        while (x != null)
+        Node i = this.head;
+        while (i != null)
         {
-            System.out.println(x.value);
-            x = x.next;
+            System.out.println(i.value);
+            i = i.next;
         }
         System.out.println();
     }
