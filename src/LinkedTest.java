@@ -13,7 +13,7 @@ public class LinkedTest {
         System.out.println(linked);
         Date date3 = new Date();
         System.out.println("\n");
-        System.out.println("Прошло -" + date3.getTime());
+        System.out.println("Прошло........ -" + date3.getTime());
         int a = 0;
         while (a < 1000)
         {
