@@ -4,7 +4,7 @@ public class ArrayTest {
     public static void main(String[] args) {
         Date date = new Date();
         System.out.println("\n");
-        System.out.println("Прошло сек -" + date.getTime());
+        System.out.println("Прошло сек1 -" + date.getTime());
         ArrayList<Integer> list = new ArrayList();
         for (int i = 0; i < 100000; i++) {
             list.add(i);
