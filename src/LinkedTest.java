@@ -24,6 +24,6 @@ public class LinkedTest {
         }
         Date date2 = new Date();
         System.out.println("\n");
-        System.out.println("Прошло -" + date2.getTime());
+        System.out.println("Прошло  тест-" + date2.getTime());
     }
 }
